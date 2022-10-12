@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="second.jpg" alt="" class="logo">
+            <ul class="none">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Portfoliyo</a></li>
+             <li><a href="#">Contact</a></li>
+            </ul>
+           <button class="expand">Expand pls</button>
+        </nav>
+        <div class="header-text">
+            <!-- <p>Full Stack Devloper</p> -->
+            <h1>Hi,I'm <span>Shivani Jain</span> <br> Front-End Devloper<br>from M.P.</h1>
+        </div>
+      </div>  
+ </div>
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="sivi.png" alt="" class="pic">
+            </div>
+            <div class="about-col-2">
+                <h1 class="Sub-title">About me</h1>
+                <p>I am shivani jain , i had completed my graduation(BCA) from holkar science college indore in the year 2021.and i had completed my schooling from narshingpur district. and currently pursuing course in Full stack web development from Newton School . As a fresher,I want a good platform to start my career and explore my skills.
+
+                </p>
+                <div class="tab-title">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link" onclick="opentab('Fresher')">Fresher</p>
+                    <p class="tab-link" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-container active-tab" id="skills">
+                    <ul>
+                        <li><span>Computer language</span><br>java,html,css,javascript.react.js</li>
+                        <li><span>Additional Course taken</span><br>Data Structure algorithm</li>
+                        <li><span>Soft Skills</span><br>Communication Skills,Decision-making</li>
+                    </ul>
+                </div>
+                <div class="tab-container" id="Fresher" >
+                    <ul>
+                        <li><span>2022-current</span><br> pursuing course in full stack Devlopement from newton school</li>
+                        <li><span>Goal</span><br>My goal is to achieve a higher post in companies</li>
+                        <li><span>Strenth</span><br>Self-motivated,patienceand hard worker</li>
+                        <li><span>Weakness</span><br>I easily trust everyone and overthinking</li>
+                    </ul>
+                </div>
+                <div class="tab-container" id="Education">
+                    <ul>
+                        <li><span>2021</span><br>BCA completed from holkar science college indore</li>
+                        <li><span>2018</span><br>completed my 12th from narshingpure district</li>
+                        <li><span>2016</span><br>completed my 10th from narshingpure district</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- ---projects-- -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My-project</h1>
+        <div class="project-list">
+            <div>
+                <h2>Snake Game</h2>
+                <p>Snake game is a computer action game, whose goal is to control a snake to move and collect food in a map. The snake roams around inside a box, and once it captures the fruit/object your points increase and the snake grows. If the snake hits the boundaries of the box or collides with itself then the game is over.
+                </p>
+               <a href="https://celadon-narwhal-4759a9.netlify.app">Learn more</a>
+            </div>
+            <div>
+                <h2>Mi Store Clone</h2>
+                <p>Mi Store is the official Xiaomi store app. If you're looking to buy any product from this popular brand, then you've found one of the easiest ways to do it. In Mi Store, you'll find all the Xiaomi brand products. </p>
+               <a href="https://poetic-mandazi-4151bf.netlify.app">Learn more</a>
+            </div>
+            <div>
+                <h2>Todo List App</h2>
+                <p>Created a project Todo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do. Quick add from everywhere. Todo-list lets you add tasks from pretty much anywhere you can be online.</p>
+               <a href="https://effervescent-empanada-1c3b6b.netlify.app">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><img src="email.png" alt=""> jshivani1412@gmail.com</p>
+                <p><img src="calling.png" alt=""> 6265053791</p>
+                <div class="social-icon">
+                    <a href="https://leetcode.com/jshivani1412/"><img src="facebook.png" alt=""></a>
+                    <a href="https://github.com/shivani1412"><img src="github.png" alt=""></a>
+                    <a href="jshivani01"><img src="instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/shivani-jain-3204191a0/"><img src="linkedin.png" alt=""></a>
+                </div>
+                <a href="My-CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="emai" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copy@right.shivani Portfolio</p>
+    </div>
+</div>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
